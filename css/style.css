@@ -18,10 +18,11 @@ body{
     height: 400px;
     background: linear-gradient(124.42deg, rgba(255, 255, 255, 0.4) 11.78%, rgba(255, 255, 255, 0.1) 81.8%);
     box-shadow: 0 4px 24px -1px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     border-radius: 40px;
     padding: 60px;
     border: 1px solid #C35F48;
+    mix-blend-mode: overlay;
 
 }
 
@@ -33,11 +34,14 @@ body{
     font-size: 24px;
     letter-spacing: -0.045em;
     color: #FFFFFF;
-    opacity: 0.8;
+}
+
+.about_date {
+    margin-top: 7px;
 }
 
 .down_card {
-    margin-top: 189px;
+    margin-top: 190px;
     align-items: center;
 }
 
